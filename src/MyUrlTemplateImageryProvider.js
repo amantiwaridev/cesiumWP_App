@@ -19,7 +19,6 @@ import { Cartesian2, Cartesian3, Cartographic , Check, combine, Credit, defaultV
 // import ImageryProvider from "./ImageryProvider.js";
 
 
-
 //Cesium webApp codes
 
 // import { Ion, Viewer, createWorldTerrain, MyUrlTemplateImageryProvider, WebMapServiceImageryProvider, GeographicTilingScheme, CesiumTerrainProvider, IonResource } from "cesium";
