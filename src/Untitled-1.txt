@@ -1,0 +1,1 @@
+http://localhost:8080/geoserver/testApp/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fjpeg&TRANSPARENT=true&STYLES=&LAYERS=testApp%3ASolani_wgs&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A4326&WIDTH=560&HEIGHT=769&BBOX=0%2C0%2C20037508.342789244%2C20037508.342789244
