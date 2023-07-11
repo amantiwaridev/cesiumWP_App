@@ -1,1 +1,11 @@
 http://localhost:8080/geoserver/testApp/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fjpeg&TRANSPARENT=true&STYLES=&LAYERS=testApp%3ASolani_wgs&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A4326&WIDTH=560&HEIGHT=769&BBOX=0%2C0%2C20037508.342789244%2C20037508.342789244
+
+
+http://localhost:8080/geoserver/testApp/wms?service=WMS&version=1.1.0&request=GetMap&layers=testApp%3ASolani_wgs&bbox=77.71776520201007%2C29.87047265071388%2C78.01616624635821%2C30.279783817740086&width=559&height=768&srs=EPSG%3A4326&styles=&format=image%2Fpng%3B%20mode%3D8bit
+
+
+
+http://localhost:8080/geoserver/testApp/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&STYLES&LAYERS=testApp%3Atest_dem&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A3857&WIDTH=1024&HEIGHT=1024&BBOX={westProjected}%2C{southProjected}%2C{eastProjected}%2C{northProjected}'
+
+
+

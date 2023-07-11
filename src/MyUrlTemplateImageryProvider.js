@@ -185,7 +185,7 @@ const CalcFlowAcc = (elevationData) => {
       }
   }
 
-  return flowDirection;
+  return flowAccumulation;
 }
 
 
@@ -754,11 +754,11 @@ MyUrlTemplateImageryProvider.prototype.requestImage = function (
     for(let i=0; i< data.length; i++) {
       for(let j=0; j< data[i].length; j++) {
         let index = i*1024*4 + j*4;
-        let value = 256 * (data[i][j]-mn)/(mx-mn);
+        let value = (data[i][j]-mn)/(mx-mn) *256;
         buffer[index] = value;
         buffer[index + 1] = value;
         buffer[index + 2] = value;
-        buffer[index + 3] = 256;
+        buffer[index + 3] = value>0?256:0;
       }
     }
     let canvas2 = document.createElement('canvas');

@@ -48,7 +48,8 @@ const viewer = new Viewer('cesiumContainer', {
 
 // Access a Web Map Service (WMS) server.
 const wms = new MyUrlTemplateImageryProvider({
-  url : 'http://localhost:8080/geoserver/testApp/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&STYLES&LAYERS=testApp%3Atest_dem&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A3857&WIDTH=1024&HEIGHT=1024&BBOX={westProjected}%2C{southProjected}%2C{eastProjected}%2C{northProjected}',
+  
+  url : 'http://localhost:8080/geoserver/testApp/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&STYLES&LAYERS=testApp%3ASolani&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A3857&WIDTH=1024&HEIGHT=1024&BBOX={westProjected}%2C{southProjected}%2C{eastProjected}%2C{northProjected}',
   rectangle : Cesium.Rectangle.fromDegrees(77.72, 29.88, 78.03, 30.24),
   // parameters: { 
   //       format: 'image/png; mode=8bit',
