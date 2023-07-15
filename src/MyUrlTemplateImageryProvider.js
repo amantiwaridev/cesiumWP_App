@@ -758,7 +758,7 @@ MyUrlTemplateImageryProvider.prototype.requestImage = function (
         buffer[index] = value;
         buffer[index + 1] = value;
         buffer[index + 2] = value;
-        buffer[index + 3] = value>0?256:0;
+        buffer[index + 3] = value>0?255:0;
       }
     }
     let canvas2 = document.createElement('canvas');
