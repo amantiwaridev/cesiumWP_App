@@ -769,6 +769,7 @@ MyUrlTemplateImageryProvider.prototype.requestImage = function (
     imgData2.data.set(buffer);
     ctx2.putImageData(imgData2, 0, 0);
     // console.log(data);
+    // console.log(imgData2);
     // console.log(canvas2.toDataURL())
     return imgData2;
   })
